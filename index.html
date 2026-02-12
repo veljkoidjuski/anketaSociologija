@@ -39,6 +39,11 @@ legend, #hvala
     letter-spacing: 0.2em
 }
 
+.dugme
+{
+    font-family=Times New Roman, serif
+}
+
 </style>
 
 </head>
@@ -93,7 +98,7 @@ legend, #hvala
 
 <p> 1. 4. Округ:
 
-<select name="okrug">
+<select class="dugme" name="okrug">
 <option value="ZBAC"> Западнобачки </option>
 <option value="SBAC"> Севернобачки </option>
 <option value="JBAC"> Јужнобачки </option>
@@ -129,7 +134,7 @@ legend, #hvala
 
 <p> 1. 5. Школа — подручје рада:
 
-<select name="skola">
+<select class="dugme" name="skola">
 <option value="GIM"> гимназија </option>
 <option value="MUZ"> музичка школа </option>
 <option value="BAL"> балетска школа </option>
@@ -154,11 +159,16 @@ legend, #hvala
 
 </fieldset>
 
+<br>
+
+<fieldset>
+
+<legend> 3. Завршни одељак </legend>
 <p id="hvala"> Хвала на издвојеном времену! </p>
-<p>При предаји, молим, <span id="hvala">&nbsp;причекај да се појави порука „Успешно сте предали свој одговор”! </span> </p>
+<p>При предаји, молим, причекај да се појави порука <span id="hvala">&nbsp;„Успешно сте предали свој одговор”! </span> </p>
 
-<input type="submit" value="Предај!"/>
-
+<p> 3. 1. <input class="dugme" type="submit" value="Предај!"/> </p>
+</fieldset>
 </form>
 
 </body>
